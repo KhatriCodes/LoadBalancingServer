@@ -1,0 +1,8 @@
+LoadBalancingClient:
+            ribbon:
+               listOfServers: localhost:9091,localhost:9092
+               ServerListRefreshInterval: 2000
+
+
+server:
+  port: 5555
